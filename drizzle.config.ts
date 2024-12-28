@@ -10,7 +10,8 @@ export default defineConfig({
     schema: "public",
   },
   out: "./app/db/migrations",
-  schema:"./app/db/schema/index.ts",
+  casing:"snake_case",
+  schema:"./app/db/schema",
   dbCredentials: {
     url: env.DATABASE_URL
   },

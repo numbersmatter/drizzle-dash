@@ -9,5 +9,12 @@ export const db = drizzle({
    ssl: env.SSL,
   },
   casing:'snake_case',
+  schema
 
 });
+
+
+
+
+export type db = typeof db;
+

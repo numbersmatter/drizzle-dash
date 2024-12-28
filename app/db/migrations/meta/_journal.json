@@ -8,6 +8,13 @@
       "when": 1735327240242,
       "tag": "20241227192040_talented_mindworm",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1735343753866,
+      "tag": "20241227235553_daily_dagger",
+      "breakpoints": true
     }
   ]
 }
